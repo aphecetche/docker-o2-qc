@@ -1,0 +1,12 @@
+#%Module1.0
+proc ModulesHelp { } {
+    puts stderr "Setup environment for o2-qc in docker"
+}
+
+module-whatis "environment for using o2-qc in docker"
+
+module load docker
+
+append-path PATH $::env(HOME)/github.com/aphecetche/docker-o2-qc
+
+
