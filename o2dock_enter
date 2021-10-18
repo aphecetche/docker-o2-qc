@@ -1,2 +1,2 @@
-docker run -it --rm -v vc_o2dock_sw:/alice local/o2-aliceo2 bash
+docker run -it --rm -v vc_o2dock_spack:/alice local/o2-spack bash
 

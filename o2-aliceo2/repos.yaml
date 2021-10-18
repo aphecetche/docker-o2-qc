@@ -1,0 +1,5 @@
+repos:
+- /opt/spack-aliceo2
+- /opt/spack-aphecetche
+- $spack/var/spack/repos/builtin
+# END ANSIBLE MANAGED BLOCK - spack

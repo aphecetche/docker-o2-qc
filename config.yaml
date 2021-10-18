@@ -1,0 +1,9 @@
+config:
+  install_tree:
+    root: /opt/spack-root
+    padded_length: 64
+  module_roots:
+    tcl: /opt/spack-root/modules
+    lmod: /opt/spack-root/lmod
+  source_cache: /opt/spack-root/var/spack/cache
+  concretizer: clingo

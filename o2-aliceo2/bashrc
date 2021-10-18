@@ -11,5 +11,4 @@ if [ -f /etc/bashrc ]; then
           . /etc/bashrc
           fi
 
-export ALIBUILD_WORK_DIR="/alice/sw"
-eval "`alienv shell-helper`"
+alias enter-spack='. /opt/spack/share/spack/setup-env.sh'

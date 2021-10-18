@@ -1,8 +1,8 @@
 #!/usr/bin/env sh
 
 docker build -t local/c8-systemd c8-systemd
-docker build -t local/o2-aliceo2 o2-aliceo2
+docker build -t local/o2-spack o2-spack
 
-docker volume create --name vc_o2dock_sw
+docker volume create --name vc_o2dock_spack
 
-docker run -it --rm -v vc_o2dock_sw:/alice local/o2-aliceo2 /root/bootstrap.sh
+docker run -it --rm -v vc_o2dock_spack:/opt/spack-root local/o2-spack /root/bootstrap.sh
